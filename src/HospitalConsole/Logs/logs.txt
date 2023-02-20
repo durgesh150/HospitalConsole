@@ -1,0 +1,22 @@
+2023-02-19 14:35:50.428 +05:30 [INF] Starting console host.
+2023-02-19 14:35:51.356 +05:30 [INF] Loaded ABP modules:
+2023-02-19 14:35:51.358 +05:30 [INF] - HospitalConsole.HospitalConsoleModule
+2023-02-19 14:35:51.358 +05:30 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-02-19 14:35:51.358 +05:30 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-02-19 14:35:51.379 +05:30 [INF] MySettingName => MySettingValue
+2023-02-19 14:35:51.379 +05:30 [INF] EnvironmentName => Production
+2023-02-19 14:35:51.380 +05:30 [INF] Initialized all ABP modules.
+2023-02-19 14:35:51.399 +05:30 [INF] Hello World!
+2023-02-19 14:35:51.400 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-19 14:35:51.408 +05:30 [INF] Hosting environment: Production
+2023-02-19 14:35:51.409 +05:30 [INF] Content root path: C:\Users\user\Desktop\.Net\HospitalConsole\src\HospitalConsole
+2023-02-19 16:02:08.031 +05:30 [INF] Starting console host.
+2023-02-19 16:02:08.532 +05:30 [FTL] Host terminated unexpectedly!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.Write[T](DiagnosticSource diagnosticSource, String name, T value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at HospitalConsole.Program.Main(String[] args) in C:\Users\user\Desktop\.Net\HospitalConsole\src\HospitalConsole\Program.cs:line 43
